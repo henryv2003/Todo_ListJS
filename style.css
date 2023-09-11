@@ -113,6 +113,7 @@ select {
     margin: 1rem;
     position: relative;
     overflow: hidden;
+    width: 10rem;
 }
 select {
     color: #ff6f47;
@@ -167,6 +168,10 @@ select {
 
     header, form {
         min-height: 17vh;
+    }
+
+    .select {
+        width: 3rem;
     }
 
 }
