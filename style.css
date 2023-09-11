@@ -136,3 +136,37 @@ select {
     background: white;
     color: #ff6f47;
 }
+
+/* Media Queries*/
+
+@media only screen and (max-width: 425px){
+	header h1 {
+        font-size: 3rem;
+    }
+
+    form input, form button {
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .filter-todo {
+        padding: 0.5rem;
+    }
+
+    .select::after {
+        top: -9px;
+    }
+
+    .todo-input {
+        margin: 1rem;
+    }
+
+    .todo-list {
+        min-width: 80%;
+    }
+
+    header, form {
+        min-height: 17vh;
+    }
+
+}
